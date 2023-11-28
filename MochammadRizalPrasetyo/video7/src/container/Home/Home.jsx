@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import YTCompany from '../../component/YouTubeComp/YTCompany';
+import Product from "../Product/Product";
 
 class Home extends Component {
     render(){
@@ -23,6 +24,9 @@ class Home extends Component {
             title="Tutorial React JS - Bagian 4"
             desc="1k ditonton. 14 hari yang lalu"/>
             <YTCompany/>
+            <p>Counter</p>
+            <hr/>
+            <Product/>
             </div>
           )
     }

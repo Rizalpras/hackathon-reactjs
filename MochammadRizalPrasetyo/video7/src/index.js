@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './container/Home/Home';
+import Product from './container/Product/Product';
+import LifeCycleCop from '../../video8/src/container/LifeCycleComp/LifeCycleCop';
 
 const root = ReactDOM.createRoot(document.getElementById('root')).render(<Home/>);
 
