@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import LifeCycleCop from "../pages/LifeCycleComp/LifeCycleCop.jsx";
+import LifeCycleComp from "../pages/LifeCycleComp/LifeCycleComp.jsx";
 import BlogPost from "../pages/BlogPost/BlogPost";
 import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
 import Product from "../pages/Product/Product";
@@ -24,7 +24,7 @@ class Home extends Component {
                 </div>
             <Routes>
             <Route path="/" exact Component={BlogPost}/>
-            <Route path="lifecycle" Component={LifeCycleCop}/>
+            <Route path="lifecycle" Component={LifeCycleComp}/>
             <Route path="product" Component={Product}/>
             <Route path="youtube-component" Component={YoutubeCompPage}/>
             </Routes>

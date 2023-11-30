@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import './LifeCycleComp.css';
 import { Fragment } from "react";
 
-class LifeCycleCop extends Component {
+class LifeCycleComp extends Component {
     constructor (props) {
         super(props);
         this.state = {
@@ -69,4 +69,4 @@ class LifeCycleCop extends Component {
     }
 }
 
-export default LifeCycleCop;
+export default LifeCycleComp;
